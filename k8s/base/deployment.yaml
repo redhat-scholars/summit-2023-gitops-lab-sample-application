@@ -33,7 +33,7 @@ spec:
             port: 8080
           periodSeconds: 2
           initialDelaySeconds: 2
-        image: quay.io/evanshortiss/random-meme:latest
+        image: quay.io/rhdevelopers/random-meme:latest
         volumeMounts:
           - name: images-volume
             mountPath: /var/images/

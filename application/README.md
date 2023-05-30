@@ -18,5 +18,5 @@ npm run dev
 Use the Docker or Podman CLI in the *application* directory:
 
 ```
-podman build . -f Containerfile -t quay.io/evanshortiss/random-meme
+podman build . -f Containerfile -t quay.io/rhdevelopers/random-meme
 ```

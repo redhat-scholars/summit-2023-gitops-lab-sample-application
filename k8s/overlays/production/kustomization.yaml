@@ -12,7 +12,7 @@ patches:
     patch: |-
       - op: replace
         path: /spec/template/spec/containers/0/image
-        value: quay.io/evanshortiss/random-meme:sha-faad6ce
+        value: quay.io/rhdevelopers/random-meme:sha-faad6ce
       - op: replace
         path: /spec/replicas
         value: 5
